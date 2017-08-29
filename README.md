@@ -1,8 +1,8 @@
 # Daohaus
 
-John D. Storey [✉️](mailto:johndangerstorey@gmail.com)
+[John D. Storey](mailto:johndangerstorey@gmail.com)
 
-V0.6 - August 6th, 2017
+V0.7 - August 29th, 2017
 
 ## Table of Contents
 
