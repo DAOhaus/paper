@@ -56,11 +56,11 @@ Creating the framework for a property on a much smaller and simpler scale and th
 
 Daohaus is essentially built on the idea of it's members submitting proposals to use public funds, and gaining approval from the rest of it's members.  The group is brought together around a specific idea or project, in which they hold a "token launch" allowing others to come onboard and to provide the startup costs needed to purchase the land, house, or whatever shared asset that is bringing them together.  This token is then registered and members are made public along with how much interest they hold in the project.
 
-From there it is up to the community to propose projects, rules, or the removal of bad actors in the system.  In essence, this is pure democratic governance -- but also allows for alternative forms of governance **as long as the people give their consent** and enhances participation, education, and accountability in the way the group is goverened.
+From there it is up to the community to propose projects, rules, or the removal of bad actors in the system.  In essence, this is pure democratic governance -- but also allows for alternative forms of governance **as long as the people give their consent** and enhances participation, education, and accountability in the way the group is governed.
 
-Daohaus is a proving ground for the advantages of a "proposal" governance over our current "charasmatic representative" based system. Up to this point it has been a relatively good way to govern, but one that is now becoming outdated and unnecessary with the maturity of certain technologies such as the internet and blockchain.  
+Daohaus is a proving ground for the advantages of a "proposal" governance over our current "charismatic representative" based system. Up to this point it has been a relatively good way to govern, but one that is now becoming outdated and unnecessary with the maturity of certain technologies such as the internet and blockchain.  
 
-Geed, corruption and incompetence cannot be solved by purely technical solutions, but I hope Daohaus will grow into a tool used to combat such evils.  If you'd like to read more of my thoughts on the subject, please see the afterword where I briefly address the implications of this project on our coutries [financial](#financial), [policy](#policy) and [enforcement](#enforcement) practices.
+Geed, corruption and incompetence cannot be solved by purely technical solutions, but I hope Daohaus will grow into a tool used to combat such evils.  If you'd like to read more of my thoughts on the subject, please see the afterword where I briefly address the implications of this project on our countries [financial](#financial), [policy](#policy) and [enforcement](#enforcement) practices.
 
 In the same way that the Bauhaus <sup id="a2">[2](#f2)</sup> movement was characterized by a minimalist type of design, we also hope to simplify and minimize governance of shared community assets.
 
@@ -68,17 +68,17 @@ In the same way that the Bauhaus <sup id="a2">[2](#f2)</sup> movement was charac
 
 In the example below a group of people have already held a token launch for 365 tokens (one for each night of the year) and have already purchased the property.  
 
-Member A proposes to paint the house blue.  The group passes the proposal with a 75% success, the chairman recieves a fee for preparing the proposal and orchstrating the work to be done with the worker doing the actual labor involved in painting the house.
+Member A proposes to paint the house blue.  The group passes the proposal with a 75% success, the chairman receives a fee for preparing the proposal and orchestrating the work to be done with the worker doing the actual labor involved in painting the house.
 
 ![Bad Actor Diagram](/diagrams/resource-proposal/single.png)
 
-Related, if the proposal doesn't pass and Member A continues to act in way contrary to the group's decesion, then anyone in the group can put forth a proposal withdraw that member for breaking good faith if they do not pay a fee in order to correct their misbehavior.  If the bad actor does not pay the good standing fee, then the group votes to remove the member and the token's they have registered get sent to a secondary market to recoup any losses caused to the property.  The group then submits a new proposal to fix the issue the previous member created, but has been paid for by the sale of his interest in the group by selling his tokens to Member C.  A visual representation can be found below: 
+Related, if the proposal doesn't pass and Member A continues to act in way contrary to the group's decision, then anyone in the group can put forth a proposal withdraw that member for breaking good faith if they do not pay a fee in order to correct their misbehavior.  If the bad actor does not pay the good standing fee, then the group votes to remove the member and the token's they have registered get sent to a secondary market to recoup any losses caused to the property.  The group then submits a new proposal to fix the issue the previous member created, but has been paid for by the sale of his interest in the group by selling his tokens to Member C.  A visual representation can be found below: 
 
 ![Bad Actor Diagram](/diagrams/overview/bad-actor.png)
 
-The above cases are simple examples of mechanisms put in place to protect the underlying projects with their accompanying assets. We plan to incorporate pre-existing governance smart contracts for the voting portion of our system in order to not re-invent the wheel.  Also good to not that although a full technical workthrough of how to integrate with a democratic system such as GovernX/Democracy Earth/Aragon has not yet been fully scoped, the protections outlined in the following pages will still be inacted regardless of the platform chosen.
+The above cases are simple examples of mechanisms put in place to protect the underlying projects with their accompanying assets. We plan to incorporate pre-existing governance smart contracts for the voting portion of our system in order to not re-invent the wheel.  Also good to not that although a full technical work through of how to integrate with a democratic system such as GovernX/Democracy Earth/Aragon has not yet been fully scoped, the protections outlined in the following pages will still be enacted regardless of the platform chosen.
 
-Given that the first few projects using the above system are successfull, we hope to facilitate the creation of a network token that allows added infastructure and tools to be created in order for non-technical people to use the system.  An example of what this will look like graphically is below.
+Given that the first few projects using the above system are successful, we hope to facilitate the creation of a network token that allows added infrastructure and tools to be created in order for non-technical people to use the system.  An example of what this will look like graphically is below.
 
 ![Token Sale Diagram](/diagrams/overview/network.png)
 
@@ -86,7 +86,7 @@ In essence what occurs is each property has it's own individual token that is un
 
 When a particular property uses the UI and specifically the payment & scheduling portion of the UI, a portion of the transaction in ETH is paid towards a larger DAO which in turn gives network tokens to the property/owners that initiated the transaction.  
 
-This is similiar to the 3% fee one pays VISA for each transaction, only with our model, VISA would give out their own tokens to be used as voting chips on what features they build in order to make their product even better, or if the the token holders wanted, to redistribute the DAO holdings back to the token holders themselves essentially not paying any fee at all.
+This is similar to the 3% fee one pays VISA for each transaction, only with our model, VISA would give out their own tokens to be used as voting chips on what features they build in order to make their product even better, or if the the token holders wanted, to redistribute the DAO holdings back to the token holders themselves essentially not paying any fee at all.
 
 ## Contracts Overview
 
@@ -116,7 +116,7 @@ The contract in which people nominate others to be "force withdrawn" in cases wh
 
 ## **Individual Project Token Sale Contract**
 
-The creation of The DAO is the initial step, and probably the most important for the longevity of the group. It is important that the DAO's Chairman clearly communicate what the DAO forming will be centered around or the group will could be divided upon creation and nothing will get done<sup id="a6">[6](#f6)</sup>.
+The creation of The DAO is the initial step, and probably the most important for the longevity of the group. It is important that the group's Chairman clearly communicate what the DAO forming will be centered around or the group will could be divided upon creation and nothing will get done<sup id="a6">[6](#f6)</sup>.
 
 Also important to communicate that the token sale price is not based solely in the underlying asset, but in the experience, the community, the efficiency of the group. Basically the value in going to Harvard is not based solely in the building, coursework, and text books… it’s the network and community you’re introduced to — so although the house might only be worth physically $500,000 - it sells for a $750,000 because everyone likes the group and people want in for social or other reasons.
 
@@ -128,7 +128,7 @@ While the landscape of token sales is expanding, and new models are continually 
 
 **Open Vs Restrictive:**
 
-Open meaning anyone can participate at any level. Restrictive meaning to put limitations on things such as requiring an identification confirmation of some sort and limit each confirmed addresses total amount possible to donate. Anyone trying to remove political factions or immediate majority shareholders would want to employ this method because essentially 1 individual could own 75% of the tokens and practically controll the entire asset.
+Open meaning anyone can participate at any level. Restrictive meaning to put limitations on things such as requiring an identification confirmation of some sort and limit each confirmed addresses total amount possible to donate. Anyone trying to remove political factions or immediate majority shareholders would want to employ this method because essentially 1 individual could own 75% of the tokens and practically control the entire asset.
 
 **Our Model:**
 
@@ -136,9 +136,9 @@ Set bottom price but allow for "bids" to occur rather than outright “sales”.
 
 Each new bid adds 1 additional day -- or other time variable -- each time a new bid is placed. This is the mechanism that penny bids use to protects against “coil and pounce” bidders to place bids right as auction ends.
 
-As soon as all tokens are bid upon, they are not actually sold and higher bids replace the claim on a lower bid. If there is a pool of bids with exact same value, the tokens with the most recent bids are knocked off first in FILO fashion, incentivizing people to act fast.
+As soon as all tokens are bid upon, they are not actually sold and higher bids replace the claim on a lower bid. If there is a pool of bids with exact same value, the tokens with the most recent bids are knocked off first in FILO fashion, giving an incentive for people to act fast.
 
-To counteract the possibility of a never ending project, the Chairman is appointed on launch to enable the contract to execute or close when they feel a general consensus has been reached, but must give 24 hour notification — this requires a solid off chain notification system like sms or email. The Chairman will typically be the team or developer hosting the token sale because they are incentivized to let it grow as high as possible without trolls making it last forever by bidding 1 Wei every 24 hours.
+To counteract the possibility of a never ending project, the Chairman is appointed on launch to enable the contract to execute or close when they feel a general consensus has been reached, but must give 24 hour notification — this requires a solid off chain notification system like sms or email. The Chairman will typically be the team or developer hosting the token sale because they want to let it grow as high as possible without trolls making it last forever by bidding 1 Wei every 24 hours.
 
 With all that being said, there are many other token sale models, and in the future each new DAO will be able to employ different token sale models as the Chairman sees fit<sup id="a7">[7](#f7)</sup>.
 
@@ -196,12 +196,12 @@ It's variables and functions are:
 
 * **Rental Price:** The price in Ether that is required to be sent in order to book 1 night
 
-* **Proposal Length:** How long proposals are active to recieve votes.  Since users can change their vote, this is also a time to campaign for or against the proposal off-chain.  This variable is used in all proposals:
+* **Proposal Length:** How long proposals are active to receive votes.  Since users can change their vote, this is also a time to campaign for or against the proposal off-chain.  This variable is used in all proposals:
   * resource
   * non-resource
   * member management
 
-  Also it's important to note that this get's paused if the chairman is nominated for a force withdrawal.  This prevents an attack against a proposal by nominating the chairman for a force withdrawal.  That way a proposal may be delayed, but not blocked.
+  Also it's important to note that this gets paused if the chairman is nominated for a force withdrawal.  This prevents an attack against a proposal by nominating the chairman for a force withdrawal.  That way a proposal may be delayed, but not blocked.
 
 * **Member Withdrawal Frequency:** How long between member being nominated to force withdraw. This is to prevent attacker from repeatedly requesting that a chairman be removed, hence putting their proposal on hold and blocking there proposals from ever being voted on. Default set to once a year.
 
@@ -215,9 +215,9 @@ It's variables and functions are:
 
 * **Token Array:** Finalized token array from the token sale. Needed for secondary market info when forcing a withdrawal.
 
-* **Variable Amendments:** This is an array of added variables.  Incase the group decideds there is a new variable that needs to be set that future contracts or escrow accounts will need in order to properly function.  For example:  A new contract needs the ability to specify 5 Board Members that govern a particular escrow account, but the group wants the number 5 to be flexible and possibly change going forward.
+* **Variable Amendments:** This is an array of added variables.  Incase the group decides there is a new variable that needs to be set that future contracts or escrow accounts will need in order to properly function.  For example:  A new contract needs the ability to specify 5 Board Members that govern a particular escrow account, but the group wants the number 5 to be flexible and possibly change going forward.
 
-* **Amendments:** This is a mapping of rules that act as a type of "constitution". However, these are unenforceable by the contract itself and are here for the purpose that other's read to align their vision together, or have common understandings of what will cause a member to be nominated to for a force withdrawal. It's up the members themselves to read them and take them into consideration, essentially each member becoming a member of the “supreme court” and interpreting the articles as they are written in cases where a member is being forced to withdraw.
+* **Amendments:** This is a mapping of rules that act as a type of "constitution". However, these are unenforceable by the contract itself and are here for the purpose that others read to align their vision together, or have common understandings of what will cause a member to be nominated to for a force withdrawal. It's up the members themselves to read them and take them into consideration, essentially each member becoming a member of the “supreme court” and interpreting the articles as they are written in cases where a member is being forced to withdraw.
 
 * **v2 — whitelist of approved tokens:** Can be basic, like via proof of phone number - but some identification check in order to verify each person controls their own tokens. Is "version 2" at this point because simple solutions can be gamed fairly easily, and complex solutions are not in the scope of the project at this point.
 
@@ -243,7 +243,7 @@ It's variables and functions are:
 
 **Distribute Tax:** Takes the yes / no votes, and the amount to be distributed. Must be executed from a resource contract to re-distribute some amount of Ether back to the token holders proportionate to their holdings.
 
-**Check for Delinquent Addresses:** Offchain solution checks 1 month prior to taxation date and will send out notifications to those that still need to pay. 
+**Check for Delinquent Addresses:** Off chain solution checks 1 month prior to taxation date and will send out notifications to those that still need to pay. 
 
 **Request Tax Amount:** Takes an address, return how much tax is owed for particular user. True is returned if paid in full, amount is returned if have withstanding balance.
 
@@ -343,7 +343,7 @@ Note: I'm tempted to allow the group to change proposal variables such as who th
 
 ## **Member Management Contract**
 
-This contract behaves very similar to how the resource contracts work. However, there would be no chairperson, and they would not be "duplicatable" as the resource contracts are.
+This contract behaves very similar to how the resource contracts work. However, there would be no chairperson, and they can not be duplicated as the resource contracts are.
 
 As little as 1 person could nominate someone that should be voted "off the island" so to speak. They would then need to meet the popular vote ratio of members confirming to kick a someone out. The person in question would have a character limit of 2,000 words in which to defend themselves, and each member would have a 500 word area vouch for or against the member in question and allows links to other places online.
 
@@ -425,7 +425,7 @@ Each token you hold represents an entire night from 12pm till 12pm the next day.
 
 Upon arrival the member should submit a report noting if things are broken or not left was they should be. If they fail to do so, they will be held accountable for whatever things are already broken that they did not record.
 
-If something's not right with the condition of the house they file a proposal - either to cover it with community funds or to fine the previous member directly. This goes through the designated process. A member is nominated to force withdraw with a price they can pay in order to not be foreced out. If the group passes the proposal -- and member does not pay within 1 month -- their token is automatically sent through the secondary market in order to pay for damages they incurred. Obviously a proposal can be raised to direct funds towards a further lawsuit on behalf of the DAO - or can be pursued privately if damages are significant.
+If something's not right with the condition of the house they file a proposal - either to cover it with community funds or to fine the previous member directly. This goes through the designated process. A member is nominated to force withdraw with a price they can pay in order to not be forced out. If the group passes the proposal -- and member does not pay within 1 month -- their token is automatically sent through the secondary market in order to pay for damages they incurred. Obviously a proposal can be raised to direct funds towards a further lawsuit on behalf of the DAO - or can be pursued privately if damages are significant.
 
 It's variables and functions are:
 
@@ -451,11 +451,11 @@ This project is begging for some sort of stable coin, but for now just depends o
 
 **Education:**
 
-Education is possibly the single most important aspect of this democracy because each member has such power in the decesion making processs.  The longevity of it's existance is dependent on all of it's members succesfully understanding issues, and looking past mob mentality, prejudice, witch-hunts, and the many other ignorances that plauge human thought.  That being said, it'd be good to have a "proof of knowledge" system that enforces a user to be mildly educated on the issues before voting.
+Education is possibly the single most important aspect of this democracy because each member has such power in the decision making process.  The longevity of it's existence is dependent on all of it's members successfully understanding issues, and looking past mob mentality, prejudice, witch-hunts, and the many other weaknesses found in human thought.  That being said, it'd be good to have a "proof of knowledge" system that enforces a user to be mildly educated on the issues before voting.
 
 **Certifications:**
 
-Along the same lines as education, it'd be good to verify people that are recieving funds are qualified to use them.  For instance a proposal might like to provide an authenticated "general contractors" license to show that they actually know a general contractor that will be carrying through with the project.
+Along the same lines as education, it'd be good to verify people that are receiving funds are qualified to use them.  For instance a proposal might like to provide an authenticated "general contractors" license to show that they actually know a general contractor that will be carrying through with the project.
 
 **Member Communication:**
 
@@ -522,7 +522,7 @@ In the past "policy" and “finances” have been separate issues.  You voted fo
 
 ## **Policy**
 
-With the advent of blockchain systems, smart contracts, and cryptocurrencies we have enhanced our current monetary instruments, and need to also update our outdated political system for one that is more transparent and better represents not just the "black and white" views of any given political party or representative, but the mixed beliefs of a truly diverse group.
+With the advent of blockchain systems, smart contracts, and crypto currencies we have enhanced our current monetary instruments, and need to also update our outdated political system for one that is more transparent and better represents not just the views of any given political party or representative, but the mixed beliefs of a truly diverse group.
 
     If the general will is to be able to express itself, 
     that there should be no partial Society within the state 
@@ -562,11 +562,11 @@ It’s a small step forward towards a better democracy.
 
 <b id="f1">1</b> This [Wiki Article](https://en.wikipedia.org/wiki/Agile_software_development) describes Agile software development as a set of values and principles for software development under which requirements and solutions evolve through the collaborative effort of self-organizing cross functional teams. It advocates adaptive planning, evolutionary development, early delivery, and continuous improvement, and it encourages rapid and flexible response to change. [↩](#a1)
 
-<b id="f2">2</b> Generally, Bauhas design attempts to solve functional issues with a minimum of decorative embellishment. This is not to be confused with a minimalist aesthetic which may actually impinge on functionality for the sake of appearance promoting a "less is more" mentality. [Bauhaus Wiki](https://en.wikipedia.org/wiki/Bauhaus) for more info.[↩](#a2)
+<b id="f2">2</b> Generally, Bauhaus design attempts to solve functional issues with a minimum of decorative embellishment. This is not to be confused with a minimalist aesthetic which may actually impinge on functionality for the sake of appearance promoting a "less is more" mentality. [Bauhaus Wiki](https://en.wikipedia.org/wiki/Bauhaus) for more info.[↩](#a2)
 
 <b id="f3">3</b> This number is visually and interestingly represented via [this website](http://www.usdebtclock.org/) but is a common estimate.[↩](#a3)
 
-<b id="f4">4</b> Middlemen for logictial reasons may not be needed, however there is still a place for representation for efficiency of time, and depth of subject knowledge.  For example I don’t have the time or experience to become an expert in the complexities of how to build a skyscraper, so on a particular project I’d like to proxy my vote to someone I know with that experience.  However, I don’t want them making decisions on my behalf about other things like health care. [↩](#a4)
+<b id="f4">4</b> Middlemen for logistical reasons may not be needed, however there is still a place for representation for efficiency of time, and depth of subject knowledge.  For example I don’t have the time or experience to become an expert in the complexities of how to build a skyscraper, so on a particular project I’d like to proxy my vote to someone I know with that experience.  However, I don’t want them making decisions on my behalf about other things like health care. [↩](#a4)
 
 <b id="f5">5</b>  The [Washington Post](https://www.washingtonpost.com/investigations/pentagon-buries-evidence-of-125-billion-in-bureaucratic-waste/2016/12/05/e0668c76-9af6-11e6-a0ed-ab0774c1eaa5_story.html?utm_term=.e18a99003420) wrote an interesting article with some nice graphs. [↩](#a5)
 
