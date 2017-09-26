@@ -50,7 +50,7 @@ Daohaus is an experiment in collective property ownership.  The short-term goal 
     
     -- Rousseau, Social Contract
 
-3 large similarities exist between managing a real estate property, and governing a nation. Namely the creation of rules called laws,the enforcement of those rules, and the management of an escrow account that we all fund through our taxes.
+Many similarities exist between managing a real estate property and governing a nation. Of particular relevance are the creation and enforcement of rules (called laws), the communication of important decision , and the management of an escrow account funded through taxes. 
 
 Creating the framework for a property on a much smaller and simpler scale and through basic mechanisms holds an important advantage which is flexibility.  We start small so that we can learn from flaws in the design, build it incrementally, and test our hypothesis as it grows following an Agile <sup id="a1">[1](#f1)</sup> mentality.
 
@@ -60,7 +60,7 @@ From there it is up to the community to propose projects, rules, or the removal 
 
 Daohaus is a proving ground for the advantages of a "proposal" governance over our current "charismatic representative" based system. Up to this point it has been a relatively good way to govern, but one that is now becoming outdated and unnecessary with the maturity of certain technologies such as the internet and blockchain.  
 
-Geed, corruption and incompetence cannot be solved by purely technical solutions, but I hope Daohaus will grow into a tool used to combat such evils.  If you'd like to read more of my thoughts on the subject, please see the afterword where I briefly address the implications of this project on our countries [financial](#financial), [policy](#policy) and [enforcement](#enforcement) practices.
+Greed, corruption and incompetence cannot be solved by purely technical solutions, but I hope Daohaus will grow into a tool used to combat such evils.  If you'd like to read more of my thoughts on the subject, please see the afterword where I briefly address the implications of this project on our countries [financial](#financial), [policy](#policy) and [enforcement](#enforcement) practices.
 
 In the same way that the Bauhaus <sup id="a2">[2](#f2)</sup> movement was characterized by a minimalist type of design, we also hope to simplify and minimize governance of shared community assets.
 
