@@ -42,7 +42,7 @@ V0.7 - August 29th, 2017
 
 ## Abstract
 
-Daohaus is a social experiment to test pure democratic governance.  The aim is to purchase, manage, and enjoy a single real estate property.  The hope is to use this specific scope to expand and grow the idea into governance of a community, and even a nation.  Hopefully bringing us closer to a more pure, accountable, and representative government.  One that is truly of the people, by the people, for the people. 
+Daohaus is an experiment in collective property ownership.  The short-term goal is to purchase, manage, and enjoy a single piece of real estate.  The hope is to learn enough from this specific scope to expand the experiment into an open platform for communities to organize around a network of properties, giving ordinary people access to shared home ownership through fractional real estate investment, and providing customizable governance tools and smart contract templates to meet the needs of a range of stakeholders.
 
 
     I shall be asked if I am a prince or a legislature to write on politics. 
