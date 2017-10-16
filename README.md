@@ -319,6 +319,8 @@ It's variables and functions are:
 
 * **v2 — Project Timeline:** A proposed length that this project should take. Initially thought of breaking 1 project into multiple milestones and breaking the tax payout accordingly, but think that it should be done proposal by proposal. For instance, one proposal might be to get an architect to draw up plans for a deck. After that proposal is finished, and there is a solid understanding of cost based off the drawings, then a NEW proposal would be submitted for construction. This is instead of having 1 proposal for the entire project.
 
+* **v2 — Required Participation:** Needs more research, but requiring a certain participation of the members for different eth totals.  For example, if the proposal is requiring 50% of the available escrow amount, it needs at least 50% participation to pass.  Is this helpful?  Will this create unecessary friction?  
+
 * This could *POSSIBLY* be used in the future to penalize the chairman going forward if they don't meet the timeline. For now just as a marker for transparency so everyone voting can gauge how long it'll take. Or for people to point to as "proof"
 
 **Init**: Registers itself with the Registrar Contract
