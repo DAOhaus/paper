@@ -60,7 +60,7 @@ From there it is up to the community to propose projects, rules, or the removal 
 
 Daohaus is a proving ground for the advantages of a "proposal" governance over our current "charismatic representative" based system. Up to this point it has been a relatively good way to govern, but one that is now becoming outdated and unnecessary with the maturity of certain technologies such as the internet and blockchain.  
 
-Geed, corruption and incompetence cannot be solved by purely technical solutions, but I hope Daohaus will grow into a tool used to combat such evils.  If you'd like to read more of my thoughts on the subject, please see the afterword where I briefly address the implications of this project on our countries [financial](#financial), [policy](#policy) and [enforcement](#enforcement) practices.
+Greed, corruption and incompetence cannot be solved by purely technical solutions, but I hope Daohaus will grow into a tool used to combat such evils.  If you'd like to read more of my thoughts on the subject, please see the afterword where I briefly address the implications of this project on our countries [financial](#financial), [policy](#policy) and [enforcement](#enforcement) practices.
 
 In the same way that the Bauhaus <sup id="a2">[2](#f2)</sup> movement was characterized by a minimalist type of design, we also hope to simplify and minimize governance of shared community assets.
 
@@ -76,7 +76,7 @@ Related, if the proposal doesn't pass and Member A continues to act in way contr
 
 ![Bad Actor Diagram](/diagrams/overview/bad-actor.png)
 
-The above cases are simple examples of mechanisms put in place to protect the underlying projects with their accompanying assets. We plan to incorporate pre-existing governance smart contracts for the voting portion of our system in order to not re-invent the wheel.  Also good to not that although a full technical work through of how to integrate with a democratic system such as GovernX/Democracy Earth/Aragon has not yet been fully scoped, the protections outlined in the following pages will still be enacted regardless of the platform chosen.
+The above cases are simple examples of mechanisms put in place to protect the underlying projects with their accompanying assets. We plan to incorporate pre-existing governance smart contracts for the voting portion of our system in order to not re-invent the wheel.  Also good to note that although a full technical work through of how to integrate with a democratic system such as GovernX/Democracy Earth/Aragon has not yet been fully scoped, the protections outlined in the following pages will still be enacted regardless of the platform chosen.
 
 Given that the first few projects using the above system are successful, we hope to facilitate the creation of a network token that allows added infrastructure and tools to be created in order for non-technical people to use the system.  An example of what this will look like graphically is below.
 
@@ -319,6 +319,8 @@ It's variables and functions are:
 
 * **v2 — Project Timeline:** A proposed length that this project should take. Initially thought of breaking 1 project into multiple milestones and breaking the tax payout accordingly, but think that it should be done proposal by proposal. For instance, one proposal might be to get an architect to draw up plans for a deck. After that proposal is finished, and there is a solid understanding of cost based off the drawings, then a NEW proposal would be submitted for construction. This is instead of having 1 proposal for the entire project.
 
+* **v2 — Required Participation:** Needs more research, but requiring a certain participation of the members for different eth totals.  For example, if the proposal is requiring 50% of the available escrow amount, it needs at least 50% participation to pass.  Is this helpful?  Will this create unecessary friction?  
+
 * This could *POSSIBLY* be used in the future to penalize the chairman going forward if they don't meet the timeline. For now just as a marker for transparency so everyone voting can gauge how long it'll take. Or for people to point to as "proof"
 
 **Init**: Registers itself with the Registrar Contract
@@ -340,6 +342,10 @@ It's variables and functions are:
 Duplicates of duplicates are not allowed, and there is nothing stopping a parent from being passed successfully along with it's child. They could both be valid proposals, and in some cases could be "amendments" or “add ons” to the original proposal.
 
 Note: I'm tempted to allow the group to change proposal variables such as who the chairman is, the registry contract, chairman fee, etc... but I feel like creating a NEW contract is a better route, because the truly important things (votes & opinions) need to start from scratch anyways.  So an emphasis should to put on creating small, step by step proposals rather than large proposals that take a long time.
+
+* **v2 — Ability for Proposal Contracts to Request Limited Minting Capacity:** Many people might not have the ETH to participate however have the ability to contribute energy in other forms.  E.g. they may wish to offer labour hours and it’s less burden on the entity to be compensated in percentage ownership of the land/asset.  Proposal contracts could also request permission for the chairman to have a limited minting capacity for the work proposed 
+e.g. the land might be represented by 365 tokens, and the proposal contract might request permission to mint 3 membership tokens to pay for labour on the land and at the same time recruit more members.
+
 
 ## **Member Management Contract**
 
