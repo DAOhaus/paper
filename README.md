@@ -54,7 +54,7 @@ Daohaus is a social experiment to test pure democratic governance.  The aim is t
 
 Creating the framework for a property on a much smaller and simpler scale and through basic mechanisms holds an important advantage which is flexibility.  We start small so that we can learn from flaws in the design, build it incrementally, and test our hypothesis as it grows following an Agile <sup id="a1">[1](#f1)</sup> mentality.
 
-Daohaus is essentially built on the idea of it's members submitting proposals to use public funds, and gaining approval from the rest of it's members.  The group is brought together around a specific idea or project, in which they hold a "token launch" allowing others to come onboard and to provide the startup costs needed to purchase the land, house, or whatever shared asset that is bringing them together.  This token is then registered and members are made public along with how much interest they hold in the project.
+Daohaus is essentially built on the idea of its members submitting proposals to use public funds, and gaining approval from the rest of its members.  The group is brought together around a specific idea or project, in which they hold a "token launch" allowing others to come onboard and to provide the startup costs needed to purchase the land, house, or whatever shared asset that is bringing them together.  This token is then registered and members are made public along with how much interest they hold in the project.
 
 From there it is up to the community to propose projects, rules, or the removal of bad actors in the system.  In essence, this is pure democratic governance -- but also allows for alternative forms of governance **as long as the people give their consent** and enhances participation, education, and accountability in the way the group is governed.
 
@@ -82,7 +82,7 @@ Given that the first few projects using the above system are successful, we hope
 
 ![Token Sale Diagram](/diagrams/overview/network.png)
 
-In essence what occurs is each property has it's own individual token that is un-diluted at represents an actor's interest in that particular property. 
+In essence what occurs is each property has its own individual token that is un-diluted at represents an actor's interest in that particular property. 
 
 When a particular property uses the UI and specifically the payment & scheduling portion of the UI, a portion of the transaction in ETH is paid towards a larger DAO which in turn gives network tokens to the property/owners that initiated the transaction.  
 
@@ -98,7 +98,7 @@ The contract where members send their token in order to vote. In order to withdr
 
 A very open ended contract that is used to set "rules" or change variables on the registry contract itself. It's an internal governance tool that is part technical -- for changing of variables -- and part societal in setting common rules that can be referenced by the group when electing to force withdraw someone from the DAO.
 
-*Optional -- The Benevolent Dictator:* This is an optional position that exists on the registry contract to make sure the group being created is living up to it's purpose.  It has the power to automatically pass or kill any proposal.  This is intended to be used in a system where the BD actually owns the underlying asset and is letting a group of trusted members guide it accordingly. Once satisfied with the organization or dies without assigning an heir, the role ends.
+*Optional -- The Benevolent Dictator:* This is an optional position that exists on the registry contract to make sure the group being created is living up to its purpose.  It has the power to automatically pass or kill any proposal.  This is intended to be used in a system where the BD actually owns the underlying asset and is letting a group of trusted members guide it accordingly. Once satisfied with the organization or dies without assigning an heir, the role ends.
 
 *v2 -- Proxy Member:* Someone that has been extended the ability to control the token from a different address than from whom the token is registered on the Registry Contract. This will be a nice feature to have but not part of version 1.
 
@@ -108,7 +108,7 @@ A separate contract that has set parameters that need to be met in order for pro
 
 **Escrow Proposal Contract:**
 
-This contract allows the creation of a special escrow account in the registrar that holds funds designated for it's future execution.  That way money that has been raised incrementally for a larger community purchase can't be used for another purpose.  For example, the community raises taxes for the building of a school that requires 5 years of payments from it's members.  This structure protects those funds from general resource proposal contracts that take money from the general escrow.
+This contract allows the creation of a special escrow account in the registrar that holds funds designated for its future execution.  That way money that has been raised incrementally for a larger community purchase can't be used for another purpose.  For example, the community raises taxes for the building of a school that requires 5 years of payments from its members.  This structure protects those funds from general resource proposal contracts that take money from the general escrow.
 
 **Member Management Contract:**
 
@@ -142,7 +142,7 @@ To counteract the possibility of a never ending project, the Chairman is appoint
 
 With all that being said, there are many other token sale models, and in the future each new DAO will be able to employ different token sale models as the Chairman sees fit<sup id="a7">[7](#f7)</sup>.
 
-It's variables and functions are:
+Its variables and functions are:
 
 * **Minimum Price:** The initial price of each token
 
@@ -158,7 +158,7 @@ It's variables and functions are:
 
 **Check Eligibility:** if public, this automatically passes. If private, checks to make sure the sender meets defined requirements. In this case it will be if they have been added to a white list after verifying their number or possibly just verifying with uport.
 
-**Bid:** Takes 2 parameters, first is how many tokens they are bidding on and second what they're bid is. Checks to make sure amount is equal to or more than the minimum price. Records the order of the bid (for use in FILO incase higher bids come in) as well as checks that this wouldn't put them over the top established by the maximum ownership share value.
+**Bid:** Takes 2 parameters, first is how many tokens they are bidding on and second what their bid is. Checks to make sure amount is equal to or more than the minimum price. Records the order of the bid (for use in FILO incase higher bids come in) as well as checks that this wouldn't put them over the top established by the maximum ownership share value.
 
 **Execute Sale:** Registers tokens and their percentages with the Registrar Contract. Sends the chairman fee to the chairman, and set's the remainder onto the registrar contract in order to be used as seen fit by the members.
 
@@ -182,7 +182,7 @@ Taxing is done on an annual basis per token owned. Taxes need to be paid before 
 
 The reason that the default tax date is at the end of the year is to allow for changes to the tax throughout the year as volatility dictates. If taxes run out because of falling prices, users must propose to change taxes higher, and everyone has till the end of the year to comply. In the other direction, if prices soar then a proposal can be drafted to redistribute taxes back to their owners proportionate to their token holdings.
 
-It's variables and functions are:
+Its variables and functions are:
 
 * **Popular Vote Ratio:** ratio needed for a vote to pass
 
@@ -231,7 +231,7 @@ It's variables and functions are:
 
 **Check Eligibility:** Sent from a proposal contract, this checks to see if the address casting a vote is indeed registered to this DAO. ** Some thought has been given to if all votes should just be held on this contract itself or on the proposal contract, I'm still not sure of the technical merits of either approach, but going ahead with the assumption that all will be stored on the proposal.
 
-**Archive Contract:** Because the registry contract will be checking votes associated with each proposal we could keep everything there indefinitely, but think it might be cleaner and easier to allow it to clear it's memory, push a "summary" to the individual contract, noting whether it passed or failed with the corresponding votes and just have a pointer to it for record keeping purposes. This would be triggered after an execution.
+**Archive Contract:** Because the registry contract will be checking votes associated with each proposal we could keep everything there indefinitely, but think it might be cleaner and easier to allow it to clear its memory, push a "summary" to the individual contract, noting whether it passed or failed with the corresponding votes and just have a pointer to it for record keeping purposes. This would be triggered after an execution.
 
 **Execute Proposal Contract**: Would request information such as chairman, and the proposal cost and distribute the funds from the "tax account" as specified.  As a default this function can only be properly be executed after the total voting time has passed.  However, in cases of emergency the time alloted for voting can be ignored if the popular vote ratio is met out of the total members in the group.  Meaning if the PVR is 75% and 76 out of the 100 members have already voted yes, it can be executed immediately.
 
@@ -257,11 +257,11 @@ It's variables and functions are:
 
 This proposal is the most basic of the proposals, but allows for variables and amendments on the Registrar Contract to be changed.
 
-It's variables and functions are:
+Its variables and functions are:
 
 * **Status:** Set to "true" if passing, “false” if failing. (Maybe this should be codes, to denote multiple states such as “passing but still has time”, “passed”, “failing but still has time”, “failing”, “paused via force withdrawal”, “killed”, etc... depending on multiple factors.
 
-* **Registry Contract Address:** The address of it's parent Registrar Contract. For security checks, and knowing where to send commands to change rules / amendments.
+* **Registry Contract Address:** The address of its parent Registrar Contract. For security checks, and knowing where to send commands to change rules / amendments.
 
 * **Chairman address:** The ability for whoever publishes the proposal to set a chairman, it's by default the person that submitted the proposal, but this allows only for someone to be responsible to kill contract.
 
@@ -285,7 +285,7 @@ It's variables and functions are:
 
 **Get Opinions**: Returns opinions, most likely to show on a UI, or gauge how heated or opinionated people are on this particular thing.
 
-**Kill Proposal**: Only executable by it's parent registry contract or the chairman. In case of a chairman being voted to force withdraw by the other members, it would nullify all proposals they have in question.
+**Kill Proposal**: Only executable by its parent registry contract or the chairman. In case of a chairman being voted to force withdraw by the other members, it would nullify all proposals they have in question.
 
 **Execute Proposal**: Sends the votes to the registry contract to be "archived" as a record of who voted for what. If PVR is met then sets the new value to the public variable in question
 
@@ -293,9 +293,9 @@ It's variables and functions are:
 
 This is probably the contract that will be used most. It needs to be tied to a parent "registry" contract in order to pull resources from it, and in order to ensure the participants have registered their tokens on it. It will ensure proposals comply with its parent's rules such as the determined popular vote ratio.
 
-If someone likes a proposal but wants to make one small adjustment they can "duplicate" the proposal and pass along the variables they want to change, however the timeline will stay the same and will close along with it's parent.
+If someone likes a proposal but wants to make one small adjustment they can "duplicate" the proposal and pass along the variables they want to change, however the timeline will stay the same and will close along with its parent.
 
-It's variables and functions are:
+Its variables and functions are:
 
 * **Chairman Fee:** How much work is this person going to need to put in to oversee this task, payable on completion of milestones.
 
@@ -331,7 +331,7 @@ It's variables and functions are:
 
 **Get Opinions**: Returns opinions, most likely to show on a UI, or gauge how heated or opinionated people are on this particular thing.
 
-**Kill Proposal**: Only executable by it's parent registry contract or the chairman. Incase of a chairman being voted to force withdraw by the other members, it would nullify all proposals they have in question.
+**Kill Proposal**: Only executable by its parent registry contract or the chairman. Incase of a chairman being voted to force withdraw by the other members, it would nullify all proposals they have in question.
 
 **Execute Proposal**: Sends the votes to the registry contract to be "archived" as a record of who voted for what. If PVR is met then sends the amount specified to the chairman specified in the contract.
 
@@ -339,7 +339,7 @@ It's variables and functions are:
 
 **Duplicate / Add-on Proposal**: Duplicate enables a person to copy the contract info and variables, (minus the votes & opinions) — and make any changes you want to it. Leaves a pointer back to the parent, so that people can view similar contracts as viable options, or as possible additions.  This pointing functionality will most likely be a UI feature.
 
-Duplicates of duplicates are not allowed, and there is nothing stopping a parent from being passed successfully along with it's child. They could both be valid proposals, and in some cases could be "amendments" or “add ons” to the original proposal.
+Duplicates of duplicates are not allowed, and there is nothing stopping a parent from being passed successfully along with its child. They could both be valid proposals, and in some cases could be "amendments" or “add ons” to the original proposal.
 
 Note: I'm tempted to allow the group to change proposal variables such as who the chairman is, the registry contract, chairman fee, etc... but I feel like creating a NEW contract is a better route, because the truly important things (votes & opinions) need to start from scratch anyways.  So an emphasis should to put on creating small, step by step proposals rather than large proposals that take a long time.
 
@@ -353,7 +353,7 @@ This contract behaves very similar to how the resource contracts work. However, 
 
 As little as 1 person could nominate someone that should be voted "off the island" so to speak. They would then need to meet the popular vote ratio of members confirming to kick a someone out. The person in question would have a character limit of 2,000 words in which to defend themselves, and each member would have a 500 word area vouch for or against the member in question and allows links to other places online.
 
-It's variables and functions are:
+Its variables and functions are:
 
 * **Registry Contract Address:** The address of the Registry Contract is at. For security check reasons.
 
@@ -399,7 +399,7 @@ But if 5 days passes and nobody bids -- for example if for some reason the token
 
 Independent of if the member has 1 token or 10 tokens, all are offered up when a force withdrawal occurs, and the bid must be for the entire lot. When a bid is won, the forced member's address is replaced on the Registrar Contract with the winning bidder's address.
 
-It's variables and functions are:
+Its variables and functions are:
 
 * **Price:** The initial price per token, is re-calculated each time a bid occurs
 
@@ -433,7 +433,7 @@ Upon arrival the member should submit a report noting if things are broken or no
 
 If something's not right with the condition of the house they file a proposal - either to cover it with community funds or to fine the previous member directly. This goes through the designated process. A member is nominated to force withdraw with a price they can pay in order to not be forced out. If the group passes the proposal -- and member does not pay within 1 month -- their token is automatically sent through the secondary market in order to pay for damages they incurred. Obviously a proposal can be raised to direct funds towards a further lawsuit on behalf of the DAO - or can be pursued privately if damages are significant.
 
-It's variables and functions are:
+Its variables and functions are:
 
 * **Map of Dates:** => Each date in a year (not sure what to do about leap year) mapped to a dictionary of address, amount paid, and their "check in" report
 
@@ -457,7 +457,7 @@ This project is begging for some sort of stable coin, but for now just depends o
 
 **Education:**
 
-Education is possibly the single most important aspect of this democracy because each member has such power in the decision making process.  The longevity of it's existence is dependent on all of it's members successfully understanding issues, and looking past mob mentality, prejudice, witch-hunts, and the many other weaknesses found in human thought.  That being said, it'd be good to have a "proof of knowledge" system that enforces a user to be mildly educated on the issues before voting.
+Education is possibly the single most important aspect of this democracy because each member has such power in the decision making process.  The longevity of its existence is dependent on all of its members successfully understanding issues, and looking past mob mentality, prejudice, witch-hunts, and the many other weaknesses found in human thought.  That being said, it'd be good to have a "proof of knowledge" system that enforces a user to be mildly educated on the issues before voting.
 
 **Certifications:**
 
@@ -538,11 +538,11 @@ With the advent of blockchain systems, smart contracts, and crypto currencies we
 
 Currently we vote for the person that will make decisions, and not the decisions themselves.  For example, when someone votes for the next president of the United States, this person is free to appoint to different high ranking positions in our government anyone he chooses.  Positions such as secretary of state, education, etc… go to people that have spent millions of dollars in campaign finances, people with political clout, alliances, or other factors that don’t necessarily contribute to an effective leader or project manager.
 
-Daohaus allows multiple people to run for each position and it’s members to choose the best plan rather than them being appointed via political alignment.  This allows whoever has the clearest, most convincing vision for any particular objective within our government to be chosen and not just whoever is better friends with a particular party leader.
+Daohaus allows multiple people to run for each position and its members to choose the best plan rather than them being appointed via political alignment.  This allows whoever has the clearest, most convincing vision for any particular objective within our government to be chosen and not just whoever is better friends with a particular party leader.
 
 Now sometimes it is good to have "representation" because if the group had to make every decision, it would be a long and time intensive process.  We account for this by introducing proposals that aren’t intrinsically any size — each proposal can be as small or large as the person submitting it can convince its members it needs to be.  This allows for the group to collectively decide if they want a 100% pure democracy, small representation, or even a king.
 
-Technically Daohaus is being built in a way that the community behind it could build and vote for alternative governance models on a project by project basis.  The education of it’s members could be all entrusted to one person that has full control of the "education" escrow tax account — essentially making them a “king”.  While at the same time all community improvement proposals could all be voted on separately, with each proposal being aimed at a specific road improvement, park creation, or community celebration project.  Then if one of the patterns or systems is viewed as advantageous, someone could internally propose to switch over if the community approves, will instantly be upgraded.
+Technically Daohaus is being built in a way that the community behind it could build and vote for alternative governance models on a project by project basis.  The education of its members could be all entrusted to one person that has full control of the "education" escrow tax account — essentially making them a “king”.  While at the same time all community improvement proposals could all be voted on separately, with each proposal being aimed at a specific road improvement, park creation, or community celebration project.  Then if one of the patterns or systems is viewed as advantageous, someone could internally propose to switch over if the community approves, will instantly be upgraded.
 
 ## **Enforcement**
 
@@ -558,7 +558,7 @@ The subjects outlined are big and complex problems that a mere change in technol
 
 Things also become more complex when physical geography and broad society come into play.  For example, in today’s world where people join not from a conscious "buy in" decision but that of a “born in” decision of others, in order to suspend someone from taking part in a community they literally have to be locked behind bars. 
 
-At our size and intended scope we do not have the resources or right to enact such a punishment.  However, if we build our community around something of real value, like that of a property that needs collective buy in from it’s members, a bad actor in the system — like someone who breaks a window and refuses to pay for it — can and should be removed from the group with their portion of the shared asset being resold in order to recoup the damage done.
+At our size and intended scope we do not have the resources or right to enact such a punishment.  However, if we build our community around something of real value, like that of a property that needs collective buy in from its members, a bad actor in the system — like someone who breaks a window and refuses to pay for it — can and should be removed from the group with their portion of the shared asset being resold in order to recoup the damage done.
 
 That is why Daohaus makes sense.  It’s a small, self-selected group of people, brought together around a common asset. 
 
